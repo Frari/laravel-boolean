@@ -11132,3 +11132,70 @@ a.text-dark:focus {
   margin-left: 60px;
 }
 
+.footer {
+  width: 100%;
+  height: 320px;
+}
+
+.footer .footer_header {
+  width: 100%;
+  height: 250px;
+  background-color: white;
+}
+
+.footer .footer_bottom {
+  width: 100%;
+  height: 70px;
+  background-color: #1b3c59;
+}
+
+.cont_int_foot_bott,
+.cont_int_foot_head {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.cont_int_foot_bott img,
+.cont_int_foot_head img {
+  width: 300px;
+  height: 90px;
+}
+
+.cont_int_foot_bott span {
+  color: white;
+}
+
+.foot_cont1,
+.foot_cont2,
+.foot_cont3 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.foot_cont1 a,
+.foot_cont2 a,
+.foot_cont3 a {
+  color: #1b3c59;
+}
+
+.foot_cont4 {
+  display: -webkit-box;
+  display: flex;
+}
+
+.foot_cont4 a {
+  color: #1b3c59;
+  font-size: 25px;
+  margin: 0 5px;
+}
+

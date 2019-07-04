@@ -1,9 +1,9 @@
 <!-- estensione verso la pagina dove ci sono i layout -->
 @extends('layouts.base')
 
-<!-- layout hanbar -->
+<!-- layout navbar -->
 @section('navbar')
-  
+
 @endsection
 
 <!-- layout footer -->
