@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('home','HomeController@index');
+
+Route::get('/','HomeController@index')->name('home');
+Route::get('Privacy-Policy','HomeController@privacyPolicy')->name('privacy-policy');

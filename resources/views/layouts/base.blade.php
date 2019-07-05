@@ -10,10 +10,9 @@
 
     <!-- layout navabar -->
     <div class="navbar">
-      @yield('navbar')
       <img src="https://www.boolean.careers/images/common/logo.png" alt="logo">
       <div class="nav_right">
-        <a href="#">HOME</a>
+        <a href="{{ route('home')}}">HOME</a>
         <a href="#">CORSO</a>
         <a href="#">METODO</a>
         <a href="#">DOPO IL CORSO</a>
@@ -22,9 +21,12 @@
       </div>
     </div>
 
+    <div class="main_content">
+      @yield('content')
+    </div>
+
     <!-- layout footer -->
     <div class="footer">
-      @yield('footer')
       <div class="footer_header">
         <div class="cont_int_foot_head">
           <div class="foot_cont1">
@@ -38,7 +40,7 @@
           <div class="foot_cont3">
             <a href="#">Domande Frequenti</a>
             <a href="#">Lezione Gratuita</a>
-            <a href="#">Privacy Policy</a>
+            <a href="{{ route('privacy-policy')}}">Privacy Policy</a>
             <a href="#">Lavora con noi!</a>
           </div>
           <div class="foot_cont4">

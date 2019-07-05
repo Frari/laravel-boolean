@@ -9,4 +9,8 @@ class HomeController extends Controller
   public function index() {
     return view ('homeBoolean');
   }
+  public function privacyPolicy(){
+    return view ('privacy-policy');
+  }
+
 }
