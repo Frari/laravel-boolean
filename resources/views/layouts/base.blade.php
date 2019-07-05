@@ -41,7 +41,7 @@
             <a href="#">Domande Frequenti</a>
             <a href="#">Lezione Gratuita</a>
             <a href="{{ route('privacy-policy')}}">Privacy Policy</a>
-            <a href="#">Lavora con noi!</a>
+            <a href="{{ route('lavora-con-noi')}}">Lavora con noi!</a>
           </div>
           <div class="foot_cont4">
             <a href="#"><i class="fab fa-facebook-square"></i></a>

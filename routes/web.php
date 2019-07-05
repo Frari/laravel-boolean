@@ -15,3 +15,4 @@
 
 Route::get('/','HomeController@index')->name('home');
 Route::get('Privacy-Policy','HomeController@privacyPolicy')->name('privacy-policy');
+Route::get('Lavora-Con-Noi','HomeController@lavoraConNoi')->name('lavora-con-noi');

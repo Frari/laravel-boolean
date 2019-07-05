@@ -12,5 +12,8 @@ class HomeController extends Controller
   public function privacyPolicy(){
     return view ('privacy-policy');
   }
+  public function lavoraConNoi(){
+    return view ('lavora-con-noi');
+  }
 
 }

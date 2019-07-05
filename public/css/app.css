@@ -11204,6 +11204,12 @@ a.text-dark:focus {
   margin: 0 5px;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .col-md-6 {
   margin-top: 100px;
   width: 100%;
@@ -11251,6 +11257,11 @@ a.text-dark:focus {
 
 .col-md-12 .col-md-2 {
   height: 100px;
+  padding: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 .col-md-12 .col-md-2 img {
@@ -11264,5 +11275,9 @@ a.text-dark:focus {
 .container h1,
 .container h3 {
   margin-bottom: 20px;
+}
+
+.first_p_lavconnoi {
+  margin-top: 20px;
 }
 

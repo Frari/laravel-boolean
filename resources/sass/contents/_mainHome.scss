@@ -38,6 +38,9 @@
   }
   .col-md-2{
     height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
     img{
       height: 30px;
     }
